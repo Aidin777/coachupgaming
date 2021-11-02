@@ -1,0 +1,11 @@
+#Включение переписывания
+RewriteEngine on
+#Установка дирректории
+RewriteBase /
+
+#Установка параметров
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+#Установка файла и пути
+RewriteRule .* index.php?q=$0

@@ -1,0 +1,40 @@
+.social-data{
+    margin: 5px 10px;
+    padding: 10px;
+    /*width: 300px;*/
+    background-color: #343a40;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.social-data_logo{
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+.social-data_personal{
+    justify-content: center;
+}
+
+.social-data_exit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-data_exit{
+    height: 25px !important;
+    width: 55px;
+    background-color: #28a745;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.authorization-social{
+    display: flex;
+}
+

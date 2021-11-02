@@ -1,0 +1,173 @@
+body{
+    /*background-color: blue;*/
+}
+
+/*====Содержание шапки====*/
+
+
+.header-container{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1600px;
+}
+
+.footer-content{
+   display: flex;
+    justify-content: center;
+    width: 600px;
+    /*background-color: darkgray;*/
+}
+
+
+.bg-skyblue{
+    background-color:  #343a40;
+}
+
+
+.swiper-container{
+    height: 180px !important;
+}
+.swiper-slide{
+    display: flex;
+    justify-content: center;
+}
+.main-border{
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: grey;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+.main_img_container{
+    width: 100%;
+    height: 260px;
+    margin: 0 auto;
+    padding: 0;
+}
+.building{
+    background-image: url(../image/11.png);
+}
+.building:hover{
+    background-image: url(../image/3.png);
+}
+.fat-loss{
+    background-image: url(../image/22.png);
+}
+.fat-loss:hover{
+    background-image: url(../image/1.png);
+}
+.power{
+    background-image: url(../image/33.png);
+}
+.power:hover{
+    background-image: url(../image/3.png);
+}
+.base{
+    background-image: url(../image/11.png);
+}
+.base:hover{
+    background-image: url(../image/1.png);
+}
+.consultation-img{
+    margin: 5px auto;
+}
+.card-consultation{
+    width: 120px;
+    background-color: blue;
+}
+img.logo_50{
+    margin: 2px auto;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+img.specoperation-img{
+    height: 150px;
+    width: 215px;
+    border: 2px solid orange;
+}
+img.cases-img{
+    height: 220px;
+    width: 220px;
+}
+img.cases-big-img{
+    height: 300px;
+    width: 300px;
+}
+.fixed-width{
+    width: 80px;
+    margin-bottom: 5px;
+}
+
+.success-status{
+    background-color: green;
+    /*max-width: 50px;*/
+}
+.waiting-status{
+    background-color: orange;
+}
+
+th.vertical-text{
+    transform: rotate(-60deg);
+    max-height: 80px;
+    max-width: 80px;
+}
+
+th.vertical-text90{
+    transform: rotate(-90deg);
+    max-height: 120px !important;
+    max-width: 80px;
+}
+
+.header-left, .header-right{
+    width: 220px;
+    display: flex;
+    /*background-color: red;*/
+}
+
+.header-left{
+    justify-content: flex-start;
+}
+
+.header-right{
+    justify-content: flex-end;
+}
+.swiper-container2{
+    overflow: hidden;
+    height: 200px;
+}
+
+img.pvp-slider{
+    height: 150px;
+    width: 350px;
+    border: 2px solid black;
+}
+
+.content-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-properties{
+    margin-bottom: 100px;
+}
+.order-to-pay{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+
+@media screen and (max-width: 1920px) and (orientation: portrait) {
+
+}
+
+@media screen and (max-width: 1920px) and (orientation: landscape) {
+
+}

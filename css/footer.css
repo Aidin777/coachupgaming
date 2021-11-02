@@ -1,0 +1,19 @@
+/* Соц сети размеры иконок */
+
+.footer-link_img{
+    padding: 0;
+    width: 25px;
+    height: 25px;
+}
+
+.social_img{
+    margin: 0;
+    width: 27px;
+    height: 27px;
+}
+
+.social-link, .social-link:hover{
+    color: black;
+    text-decoration: none !important;
+    margin: 0 20px;
+}
