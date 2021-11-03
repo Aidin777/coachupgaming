@@ -2,19 +2,12 @@
 session_start();
 include_once('config.php');
 
-include('model/M_MYSQLI.php');
-include('model/M_Pages.php');
-include('model/M_Users.php');
+// Добавлена автоподгрузка контроллеров и моделей 2 раз
 
-include('model/vk_auth.php');
-include('contr/C_Controller.php');
-include('contr/C_Base.php');
-include('contr/C_Page.php');
-include('contr/C_Info.php');
-include('contr/C_Payment.php');
-include('contr/C_Training.php');
-include('contr/C_Warface.php');
-include('contr/C_Crossout.php');
+function __autoload($classname) {
+    include_once ("model/$classname.php");
+    include_once ("contr/$classname.php");
+}
 
 
 $info = explode('/', $_GET['q']);
@@ -50,8 +43,7 @@ switch ($params[0]){
     default:
         $controller = new C_Page($url, $client_id, $redirect_uri);
 }
-//var_dump($params_vk_for_autorization);
 
-//    'response_type' => 'code'
+
 
 $controller->Request($action, $params);
